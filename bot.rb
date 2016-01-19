@@ -40,9 +40,7 @@ options[:telegram_token] ||= ENV.fetch('TELEGRAM_TOKEN')
 options[:edamam_id]      ||= ENV.fetch('EDAMAM_ID')
 options[:edamam_key]     ||= ENV.fetch('EDAMAM_KEY')
 
-#WoutBot.run(options)
-
-api = VeganBot::EdamamApi.new(options[:edamam_id], options[:edamam_key])
+VeganBot.run(options)
 
 # recipe = api.search({q: 'soup'})['hits'].sample['recipe']
 #
