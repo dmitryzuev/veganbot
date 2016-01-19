@@ -1,2 +1,2 @@
-# wout_bot
-Fitness workout Telegram bot
+# veganbot
+Vegan recipe Telegram bot
